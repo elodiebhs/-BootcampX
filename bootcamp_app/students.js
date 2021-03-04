@@ -10,7 +10,7 @@ const pool = new Pool({
 });
 
 //query
-//console.log(process.argv[2]);
+//Where FEB is the cohort name and 2 is the maximum number of results
 
 pool.query(`
 SELECT students.id as student_id, students.name as name, cohorts.name as cohort
